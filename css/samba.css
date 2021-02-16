@@ -1,0 +1,22 @@
+.agrupar {
+  background: lightblue;
+  margin: auto;
+  width: 960px
+
+}
+.menu li{
+      list-style: none;
+      padding: 5px;
+      font: bold  14px sans-serif;
+      display: inline-block; center
+}
+.cabecera{
+  background: lightgreen
+}
+.pie{
+    clear: both;
+    text-align: right;
+    background: #e7e3ff;
+    color: black;
+    padding: 15px; font-style: italic;
+}
