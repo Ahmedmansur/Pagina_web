@@ -1,5 +1,5 @@
 .agrupar {
-  background: lightblue;
+  background: white;
   margin: auto;
   width: 960px
 
@@ -14,9 +14,14 @@
   background: lightgreen
 }
 .pie{
-    clear: both;
     text-align: right;
     background: #e7e3ff;
     color: black;
     padding: 15px; font-style: italic;
+    margin: 20px
+}
+
+html body {
+  height: 100%
+  width: 100%
 }
