@@ -87,9 +87,10 @@ time {
     margin: auto;
 }
 
-img {
-    width: 40px;
-    margin: 20px auto;
+img{
+    width:3%;
+    height:5%;
+
 }
 html body{
   height: auto;

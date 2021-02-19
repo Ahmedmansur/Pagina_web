@@ -1,3 +1,14 @@
+body{
+  background:
+}
+h1{
+  text-align:center;
+  font-size:40px;
+}
+ul{
+  border: 2px solid blue;
+}
+
 .agrupar {
   background: white;
   margin: auto;
@@ -8,19 +19,21 @@
       list-style: none;
       padding: 5px;
       font: bold  14px sans-serif;
-      display: inline-block; center
+      display: inline-block; center;
 }
 .cabecera{
   background: lightgreen
 }
 .pie{
-    text-align: right;
+    text-align: center;
     background: #e7e3ff;
-    color: black;
-    padding: 15px; font-style: italic;
+    padding: 15px;
     margin: 20px
 }
-
+img{
+  width:3%;
+  height:5%;
+}
 html body {
   height: 100%
   width: 100%
