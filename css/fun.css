@@ -20,6 +20,10 @@ img{
   width:3%;
   height:5%;
 }
+video {
+  width: 50%;
+  height: auto;
+}
 
 html body {
   height: 100%
