@@ -1,5 +1,7 @@
 body{
   background: #fafafa
+  height:100%;
+  width:100%;
 }
 nav{
   text-align: center;
@@ -11,8 +13,8 @@ nav{
   background: white;
 }
 img{
-  width:25%;
-  height:30%;
+  width:100%;
+  height:auto;
 }
 p{
   font-family:Arial;
@@ -23,20 +25,54 @@ h1{
   font-family:helvetica;
   text-align:center;
 }
-#container{
+#container1{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+}
+#container2 .box0{
+  padding: 1em;
+  background-color: red;
+  grid-column: 1/1;
+  grid-row:auto;
+}
+#container2{
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-  grid-template-rows: 15vh 25vh 45vh 15vh;
-}
-#container .box1{
+  grid-template-rows: calc(15vh - 10px) calc(30vh - 10px) calc(15vh - 10px);
   padding: 1em;
-  background-color: white;
-  grid-column: 2/3
 }
+
+#container2 .box1{
+  padding: 1em;
+  grid-column: 2/3;
+  grid-row:2/3;
+}
+#container2 .box2{
+  padding: 1em;
+  grid-column: 3/4;
+  grid-row:2/3;
+}
+#container2 .box3{
+  padding: 1em;
+  grid-column: 4/5;
+  grid-row:2/3;
+}
+#container3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: calc(15vh -10px);
+}
+#container3 .footer{
+  padding: 1em;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+
 footer{
     font-family: Arial;
    text-align: right;
-   margin: 50px;
    background: #f26b7f;
    border: 4px solid black;
 
